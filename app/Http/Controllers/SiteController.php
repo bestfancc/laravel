@@ -58,7 +58,13 @@ class SiteController extends Controller
         $data = [
           'user' => $user,
         ];
+
+
         return view('/site/chat',$data);
+    }
+    //qq机器人
+    public function qqrebot() {
+        echo 1;
     }
     public function phpinfo()
     {

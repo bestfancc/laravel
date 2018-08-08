@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 Route::any('site/index','SiteController@index');
 Route::any('site/chat','SiteController@chat');
+Route::any('site/qqrebot','SiteController@qqrebot');
 Route::any('site/phpinfo','SiteController@phpinfo');
 
 Auth::routes();
